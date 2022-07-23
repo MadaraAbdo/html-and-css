@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding:0;
+    background:#262626;
+    font-family:arial;
+}
+
+.loeder{
+    position:absolute;
+    top:50%;
+    Left:50%;
+    transform:translate(-50% ,-50%);
+}
+
+.loeder h1{
+    background-image: url(Untitled-1.png);
+    -webkit-background-clip: text;
+    animation: animo 10s cubic-bezier(0, -0.02, 1, 1.01) infinite;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 9.9em;
+    color: rgba(255, 255, 255, 0);
+    background-repeat: repeat-x;
+    background-size: cover;
+    
+
+}
+
+@keyframes animo {
+    0% {
+        background-position: left 0px top 0px;
+        transform: translateY(-1000px);
+        opacity: 0%;
+    }
+    20% {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+    85% {
+        opacity: 100%;
+    }
+    100% {
+        background-position: left 2000% top 0px;
+        opacity: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
